@@ -1,8 +1,6 @@
 # Dappazon - Decentralized E-Commerce Platform
 
-**Note:** This is an academic project built during a January 2023 to April 2023 internship at **Advait Solutions** as part of BE Computer Engineering curriculum.
-
----
+Dappazon is a decentralized e-commerce platform built on Ethereum, featuring Solidity smart contracts, React frontend, and MetaMask integration for seamless ETH transactions.
 
 ## About
 
@@ -200,3 +198,7 @@ This project is for educational purposes and was developed as part of academic c
 - **College** - BE Computer Engineering Department
 - **Mentors** - For guidance throughout the project
 - **Open Source Libraries** - Hardhat, Ethers.js, React
+
+---
+
+**Note:** This is an academic project built during a **January 2023 to April 2023** in an internship at **Advait Solutions** as part of **BE Computer Engineering** curriculum at **Bhagwan Arihant Institute of Technology - Surat.**
