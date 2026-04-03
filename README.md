@@ -11,7 +11,6 @@ Dappazon is a decentralized e-commerce platform built on Ethereum blockchain. It
 - View product ratings and stock information
 - Track purchases on the blockchain
 
----
 
 ## Technology Stack & Tools
 
@@ -22,7 +21,6 @@ Dappazon is a decentralized e-commerce platform built on Ethereum blockchain. It
 - **JavaScript** - Application logic
 - **MetaMask** - Ethereum wallet
 
----
 
 ## Internship Details
 
@@ -36,7 +34,6 @@ Dappazon is a decentralized e-commerce platform built on Ethereum blockchain. It
 
 This project was developed as part of the internship program at **Advait Solutions**, where I learned and implemented blockchain technology concepts to build a practical decentralized application.
 
----
 
 ## Quick Start
 
@@ -65,7 +62,6 @@ npm start
 - Add network: RPC `http://127.0.0.1:8545`, Chain ID `31337`
 - Click "Connect to Blockchain" in the app
 
----
 
 ## Demo Mode
 
@@ -76,7 +72,6 @@ The app works without blockchain connection:
 
 Click "Connect to Blockchain" when ready to use real blockchain.
 
----
 
 ## Project Structure
 
@@ -110,7 +105,6 @@ dappazon/
 └── package.json
 ```
 
----
 
 ## Documentation
 
@@ -122,7 +116,6 @@ For detailed information, see the `docs/` folder:
 | `docs/setup.md` | Detailed setup instructions |
 | `docs/contract-info.md` | Smart contract reference |
 
----
 
 ## Screenshots
 
@@ -140,7 +133,6 @@ The following screenshots showcase the Dappazon application:
 ![Product Purchased](docs/Screenshots/Products%20was%20purchased.png)
 *Transaction confirmation showing successful purchase*
 
----
 
 ## Features
 
@@ -151,7 +143,6 @@ The following screenshots showcase the Dappazon application:
 - **Order History**: Purchases recorded on blockchain
 - **MetaMask Integration**: Connect wallet to interact with blockchain
 
----
 
 ## Requirements
 
@@ -159,7 +150,6 @@ The following screenshots showcase the Dappazon application:
 - MetaMask browser extension
 - npm or yarn
 
----
 
 ## Testing
 
@@ -171,7 +161,6 @@ npx hardhat test
 npx hardhat compile
 ```
 
----
 
 ## Key Learnings from Internship
 
@@ -184,13 +173,11 @@ During the internship at **Advait Solutions**, I learned:
 5. Understanding Web3 concepts and decentralized architecture
 6. Real-world application of blockchain technology
 
----
 
 ## License
 
-This project is for educational purposes and was developed as part of academic curriculum.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
 
 ## Acknowledgments
 
