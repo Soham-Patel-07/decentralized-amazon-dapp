@@ -62,7 +62,7 @@ npm start
 - Add network: RPC `http://127.0.0.1:8545`, Chain ID `31337`
 - Click "Connect to Blockchain" in the app
 
-Soham
+Sohamssss
 ## Project Structure
 
 ```
