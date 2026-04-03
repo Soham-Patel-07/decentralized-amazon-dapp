@@ -63,16 +63,6 @@ npm start
 - Click "Connect to Blockchain" in the app
 
 
-## Demo Mode
-
-The app works without blockchain connection:
-- Sample products with local images
-- Simulated purchase functionality
-- Full UI for testing
-
-Click "Connect to Blockchain" when ready to use real blockchain.
-
-
 ## Project Structure
 
 ```
