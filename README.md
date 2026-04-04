@@ -67,32 +67,71 @@ npm start
 
 ```
 dappazon/
-├── contracts/          # Smart contracts
-│   └── Dappazon.sol
-├── scripts/            # Deployment scripts
-│   └── deploy.js
-├── test/               # Smart contract tests
-│   └── Dappazon.js
-├── src/                # React frontend
-│   ├── components/     # React components (Navigation, Section, Product, Rating)
-│   ├── assets/         # Images and icons
-│   │   └── items/      # Product images (camera, drone, shoes, etc.)
-│   ├── abis/           # Contract ABIs
-│   ├── config.json     # Contract addresses
-│   ├── items.json      # Product catalog
-│   └── App.js          # Main application
-├── docs/               # Documentation
-│   ├── project-info.md # Project details
-│   ├── setup.md        # Setup guide
-│   ├── contract-info.md # Smart contract docs
-│   └── Screenshots/    # Project screenshots
-│       ├── home-page.png
-│       ├── product-detail.png
-│       ├── demo-mode.png
-│       ├── connected.png
-│       └── metamask.png
-├── hardhat.config.js
-└── package.json
+├── README.md             # Project documentation
+├── LICENSE               # MIT License
+├── contracts/              # Smart contracts
+│   └── Dappazon.sol       # Main smart contract
+├── scripts/               # Deployment scripts
+│   └── deploy.js          # Deploy script
+├── test/                  # Smart contract tests
+│   └── Dappazon.js        # Contract tests
+├── src/                   # React frontend
+│   ├── components/        # React components
+│   │   ├── Navigation.js  # Navigation component
+│   │   ├── Section.js     # Section component
+│   │   ├── Product.js     # Product component
+│   │   └── Rating.js      # Rating component
+│   ├── assets/            # Images and icons
+│   │   ├── items/         # Product images
+│   │   │   ├── camera.jpg
+│   │   │   ├── drone.jpg
+│   │   │   ├── shoes.jpg
+│   │   │   ├── watch.jpg
+│   │   │   ├── headset.jpg
+│   │   │   ├── cube.jpg
+│   │   │   ├── sunglasses.jpg
+│   │   │   ├── train.jpg
+│   │   │   ├── robots.jpg
+│   │   │   └── ...
+│   │   ├── star-solid.svg
+│   │   ├── star-regular.svg
+│   │   ├── logo.svg
+│   │   └── close.svg
+│   ├── abis/              # Contract ABIs
+│   │   └── Dappazon.json  # Contract ABI
+│   ├── items.json         # Product catalog
+│   ├── config.json        # Contract addresses
+│   ├── App.js             # Main application
+│   ├── index.js           # React entry point
+│   ├── index.css          # Global styles
+│   ├── logo.svg           # App logo
+│   ├── setupTests.js      # Test setup
+│   ├── reportWebVitals.js # Web vitals reporting
+│   └── App.test.js        # App tests
+├── public/                # Public assets
+│   ├── index.html         # HTML template
+│   ├── manifest.json      # PWA manifest
+│   ├── robots.txt         # Robots.txt
+│   ├── logo192.png        # App icon 192px
+│   ├── logo512.png        # App icon 512px
+│   └── favicon.ico        # Favicon
+├── docs/                  # Documentation
+│   ├── project-info.md    # Project details
+│   ├── setup.md           # Setup guide
+│   ├── contract-info.md   # Smart contract docs
+│   ├── Screenshots/       # Project screenshots
+│   │   ├── Products are available for sell.png
+│   │   ├── Products was purchased.png
+│   │   └── Dappazon after user connect with wallet.png
+│   ├── Internship Report SEM 8  Final.pdf
+│   ├── Blockchain Technology clg ppt.ppt
+│   └── Blockchain Technology clg ppt.pdf
+├── hardhat.config.js      # Hardhat configuration
+├── package.json           # Dependencies
+├── package-lock.json      # Lock file
+├── cache/                 # Hardhat cache
+├── artifacts/             # Compiled contracts
+└── .gitignore             # Git ignore
 ```
 
 
